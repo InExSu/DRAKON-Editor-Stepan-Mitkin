@@ -5,10 +5,15 @@ $wordMap = @{
     '\"js\"' = '"php"'
     '\"var \$' = '"\$'
     '\"var\"' = '""'
-    '\\nvar \$' = '\n $'
+    '\\nvar ' = '\n '
     '_var \"' = '_var "\$'
+	'; var ' = '; '
     'javascript' = 'PHP'
+	'\$coll_var.length' = 'count\($coll_var\)'
+	'\$keys_var.length' = 'count\($keys_var\)'
+	'Object.keys' = 'array_keys'
 }
+
 
 $phpContent = $javascriptContent
 
