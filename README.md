@@ -1,5 +1,4 @@
-# DRAKON-Editor-Stepan-Mitkin 🐉🚀
-[ДРАКОН редактор Степана Митькина 🐉](URL]https://github.com/stepan-mitkin/drakon_editor#how-to-use-release-version-of-drakon-editor[/URL) 🌟
+[ДРАКОН редактор Степана Митькина 🐉](https://github.com/stepan-mitkin/drakon_editor#how-to-use-release-version-of-drakon-editor) 
 
 Файл PowerShell javaScript_2_PHP.ps1 
 
