@@ -14,12 +14,20 @@ $wordMap = @{
 	'Object.keys' = 'array_keys'
 }
 
-
 $phpContent = $javascriptContent
 
 foreach ($key in $wordMap.Keys) {
     $phpContent = $phpContent -replace $key, $wordMap[$key]
 }
+
+# приходится делать отдельно
+$wordMap = @{
+	'return \"\\\$' = 'return "$'
+}
+foreach ($key in $wordMap.Keys) {
+    $phpContent = $phpContent -replace $key, $wordMap[$key]
+}
+
 
 $php_KeyWords = @"
 
