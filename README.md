@@ -6,18 +6,20 @@
 
 из плагина генерации кода JavaScripr javascript.tcl. 💻
 
-ВАЖНО%
-в File description пропиши
+**ВАЖНО:**
+В `File description` пропиши:
 
+```php
 === header ===
 
 <?php
+```
 
-можешь добавлять такие строки:
+Можешь добавлять такие строки:
 
+```php
 /** @noinspection PhpUnused */
 
 declare(strict_types=1);
-
-
+```
 ![image](https://github.com/InExSu/DRAKON-Editor-Stepan-Mitkin/assets/36605404/e9f68dfd-2a58-4d50-9bae-fd3f3c894262)
