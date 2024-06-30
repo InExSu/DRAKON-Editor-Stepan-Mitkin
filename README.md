@@ -23,3 +23,9 @@
 declare(strict_types=1);
 ```
 ![image](https://github.com/InExSu/DRAKON-Editor-Stepan-Mitkin/assets/36605404/e9f68dfd-2a58-4d50-9bae-fd3f3c894262)
+
+**SWITCH:**
+
+в конструкциях switch нельзя использовать константы
+
+![image](https://github.com/InExSu/DRAKON-Editor-Stepan-Mitkin-JavaScript-2-PHP/assets/36605404/7df84038-9a05-4624-b249-f4421b6c004e)
